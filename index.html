@@ -527,7 +527,7 @@
       </div>
       <div class="hero-btns">
         <a href="#projects" class="btn-p"><i class="fas fa-code"></i> View Projects</a>
-        <a href="https://drive.google.com/file/d/1SZsvUVQIzzM83Aj7O9U8Llqq0SIxOPGo/view" target="_blank" class="btn-o"><i class="fas fa-download"></i> Resume</a>
+        <a href="https://drive.google.com/file/d/1hLPgHS_jtarqdIPXWkfrHGl6-KdPZqX8/view?usp=sharing" target="_blank" class="btn-o"><i class="fas fa-download"></i> Resume</a>
         <a href="#contact" class="btn-o"><i class="fas fa-envelope"></i> Contact</a>
       </div>
     </div>
@@ -593,6 +593,7 @@
         <div class="cert-list" style="margin-top:1.5rem;">
           <div class="cert-item"><i class="fas fa-certificate cert-icon"></i><span class="cert-name">C and C++ Programming Certification</span></div>
           <div class="cert-item"><i class="fas fa-certificate cert-icon"></i><span class="cert-name">Python Programming Certification</span></div>
+          <div class="cert-item"><i class="fas fa-certificate cert-icon"></i><span class="cert-name">AWS Cloud Practitioner Essentials</span></div>
         </div>
       </div>
       <div class="about-text rv">
@@ -683,95 +684,107 @@
 </section>
 
 <!-- EXPERIENCE -->
+<!-- EXPERIENCE -->
 <section id="experience">
   <div class="wrap">
     <div style="margin-bottom:3rem;" class="rv">
       <div class="eyebrow">Experience</div>
       <h2 class="sec-title">Where I've <span>worked</span></h2>
     </div>
+
     <div class="exp-layout rv">
       <div class="exp-tabs">
         <button class="tab-btn on" onclick="tab(this,'u4')">U4RAD (Current)</button>
         <button class="tab-btn" onclick="tab(this,'intern')">U4RAD (Intern)</button>
-        <button class="tab-btn" onclick="tab(this,'edu')">Education</button>
       </div>
+
       <div>
-        <!-- Current role -->
+
+        <!-- CURRENT ROLE -->
         <div class="tab-pane on" id="pane-u4">
           <div style="margin-bottom:1.2rem;">
             <div class="exp-title">Software Developer</div>
-            <div class="exp-co">U4RAD Technology — Healthcare IT Solutions</div>
+            <div class="exp-co">U4RAD Technology Pvt. Ltd. — Healthcare IT Solutions</div>
+
             <div class="exp-meta">
               <span class="em"><i class="fas fa-calendar"></i> July 2025 – Present</span>
               <span class="em"><i class="fas fa-map-marker-alt"></i> Pune, India</span>
               <span class="em"><i class="fas fa-circle" style="color:var(--green);font-size:0.5rem;"></i> Full-time</span>
             </div>
+
             <div style="margin-top:0.8rem;">
-              <span class="award-pill"><i class="fas fa-trophy"></i> Employee of the Month — August 2025</span>
+              <span class="award-pill">
+                <i class="fas fa-trophy"></i> Employee of the Month — Aug 2025
+              </span>
             </div>
           </div>
+
           <div class="hr"></div>
+
           <ul class="exp-ul">
-            <li><strong>Awarded Employee of the Month (August 2025)</strong> for outstanding technical contributions and delivery excellence.</li>
-            <li>Developed a <strong>full-stack camp automation system</strong> end-to-end, integrating participant management, reporting, and scheduling — reducing manual operational effort by 40%.</li>
-            <li>Designed and built an <strong>internal ticketing system</strong> to streamline issue tracking across development and operations teams, improving resolution speed and visibility.</li>
+            <li><strong>Employee of the Month (Aug 2025)</strong> awarded for technical excellence and product innovation.</li>
+
+            <li>Developed a <strong>full-stack Camp Automation System</strong>, reducing manual operational effort by <strong>40%</strong>.</li>
+
+            <li>Built integrated <strong>billing and cost-tracking module</strong> enabling invoice generation and real-time expense visibility.</li>
+
+            <li>Designed an <strong>internal ticketing system</strong> to streamline issue tracking and improve team productivity.</li>
+
+            <li>Migrated <strong>Reporting Bot V3</strong> from Django MVT to <strong>Django REST Framework + React.js</strong> architecture.</li>
+
+            <li>Implemented <strong>B2B billing platform</strong> enabling enterprise customers to generate invoices directly from the application.</li>
           </ul>
+
           <div class="exp-chips">
-            <span class="ech">Python</span><span class="ech">Django</span>
-            <span class="ech">React.js</span><span class="ech">MySQL</span>
-            <span class="ech">REST API</span><span class="ech">AWS</span>
+            <span class="ech">Python</span>
+            <span class="ech">Django</span>
+            <span class="ech">DRF</span>
+            <span class="ech">React.js</span>
+            <span class="ech">MySQL</span>
+            <span class="ech">REST API</span>
           </div>
         </div>
-        <!-- Intern -->
+
+        <!-- INTERN -->
         <div class="tab-pane" id="pane-intern">
           <div style="margin-bottom:1.2rem;">
             <div class="exp-title">Software Developer Intern</div>
-            <div class="exp-co">U4RAD Technology — Healthcare IT Solutions</div>
+            <div class="exp-co">U4RAD Technology Pvt. Ltd. — Healthcare IT Solutions</div>
+
             <div class="exp-meta">
               <span class="em"><i class="fas fa-calendar"></i> Jan 2025 – June 2025</span>
               <span class="em"><i class="fas fa-map-marker-alt"></i> Pune, India</span>
               <span class="em"><i class="fas fa-clock"></i> 6 Months</span>
             </div>
           </div>
+
           <div class="hr"></div>
+
           <ul class="exp-ul">
-            <li>Built an <strong>OTHM automation system</strong> in Python to merge & rename PDFs and generate structured Excel reports — significantly reducing manual processing effort for the healthcare team.</li>
-            <li>Developed <strong>Python-based tools for medical file processing</strong> and clinical workflow optimization, supporting DICOM/PACS-integrated pipelines.</li>
-            <li>Enhanced dashboards and internal workflows, improving efficiency and response time for clinical coordinators and administrators.</li>
+            <li>Built automation tools for <strong>PDF merging, file renaming, and Excel report generation</strong>, significantly reducing manual effort.</li>
+
+            <li>Designed a <strong>DICOM file sync mechanism</strong> that queued files during network outages and auto-uploaded on reconnection, ensuring <strong>zero data loss</strong>.</li>
+
+            <li>Resolved complex <strong>dashboard filtering and data retrieval issues</strong>, improving system performance and report accuracy.</li>
+
+            <li>Collaborated with cross-functional teams to troubleshoot production issues and improve system stability.</li>
           </ul>
+
           <div class="exp-chips">
-            <span class="ech">Python</span><span class="ech">DICOM</span>
-            <span class="ech">Orthanc PACS</span><span class="ech">PyPDF2</span>
-            <span class="ech">OpenCV</span><span class="ech">MySQL</span>
+            <span class="ech">Python</span>
+            <span class="ech">DICOM</span>
+            <span class="ech">Automation</span>
+            <span class="ech">OpenCV</span>
+            <span class="ech">MySQL</span>
+            <span class="ech">Pandas</span>
           </div>
         </div>
-        <!-- Education -->
-        <div class="tab-pane" id="pane-edu">
-          <div style="margin-bottom:1.2rem;">
-            <div class="exp-title">BE — Computer Science & Engineering</div>
-            <div class="exp-co">Savitribai Phule Pune University (SPPU)</div>
-            <div class="exp-meta">
-              <span class="em"><i class="fas fa-calendar"></i> 2021 – 2025</span>
-              <span class="em"><i class="fas fa-star"></i> CGPA: 7.08 / 10</span>
-            </div>
-          </div>
-          <div class="hr"></div>
-          <ul class="exp-ul">
-            <li>Completed 4-year Bachelor of Engineering in Computer Science, covering data structures, algorithms, operating systems, databases, machine learning, and software engineering.</li>
-            <li>Final-year project: <strong>Real-Time Human Detection & Counting System</strong> — trained a custom YOLO model on 5,000+ annotated images achieving 92% accuracy at 30 FPS.</li>
-            <li>Earned certifications in <strong>C & C++ Programming</strong> and <strong>Python Programming</strong> alongside coursework.</li>
-            <li>HSC from Jay Bajrang Vidyalaya (2021) — scored 82.5%.</li>
-          </ul>
-          <div class="exp-chips">
-            <span class="ech">Python</span><span class="ech">C / C++</span>
-            <span class="ech">YOLO</span><span class="ech">TensorFlow</span>
-            <span class="ech">OpenCV</span><span class="ech">MySQL</span>
-          </div>
-        </div>
+
       </div>
     </div>
   </div>
 </section>
+
 
 <!-- PROJECTS -->
 <section id="projects">
